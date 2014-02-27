@@ -1,0 +1,103 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <title>Facetoaster - Ergosphere</title>
+
+    <link rel="icon" type="image/png" href="favicon.png" />
+    
+    <link href="public/css/style.css" rel="stylesheet" />
+
+    <meta name="description" content="Facetoaster. Created at MHacks 2014" />
+    <meta name="author" content="Jeff Hilnbrand, Jaren Glover, Luis Santos" />
+    
+    <link rel="shortcut icon" href="favicon.png" />
+</head>
+
+<body>
+
+    <!-- FRAME + DESCRIPTION -->
+
+    <div class="frame">
+        <div class="description">
+            <h1>ERGOSPHERE</h1>
+            <p class="description-text">Easter Egg.</p>
+        </div>
+    </div>
+
+
+    <!-- SLIDES -->
+
+    <div id="impress">
+
+        <div class="step slide" data-y="-1500" description="Here is the launch screen that shows off the logo which, when viewed at the right angle, resembles a rocketship or arrow pointing to the left. The flat design is minimalist which emphasizes usability with clean open spaces and crisp edges.">
+            <img class="image-test" src="public/img/ergo_launch.png">
+        </div>
+
+        <div class="step slide" data-y="-1500" description="The home screen where users will find all their topics. Most recent topics are listed along with a reminder of your current streak and points earned.">
+            <img src="public/img/ergo_home.png">
+        </div>
+
+        <div class="step slide" data-y="-1500" description="Progress encourages the user to keep playing, or learning, in order to achieve a fun, higher ranking status such as Starship Captain. Completion for each topic can be scrolled through. The Forgetting Curve uncovers the consequence of not keeping up with topics.">
+            <img src="public/img/ergo_progress.png">
+        </div>
+
+        <div class="step slide" data-y="-1500" description="A taste of the application installed onto an iOS device. Move over Facebook, Twitter and Google!">
+            <img src="public/img/screen1.png">
+        </div>
+<!--
+        <div class="step slide" data-y="-1500" description="Status bars colors have been adjusted, with current drops as yellow and pinned drops as blue. Throughout the app, yellow is used sparingly as a fresh and exciting color while blue indicates a more common but interactive element. Colors are slightly desaturated here, as they were appearing far too bold on Amoled devices.">
+            <img src="public/img/screen4.png">
+        </div>
+-->
+    </div>
+    
+
+    <!-- FOOTER -->
+
+        <!--
+
+            <div class="info-bottom-left">
+                <p>Right = Newer / Left = Older</p>
+                <p>Click <a class="btn-pixeldiff" href="">here</a> to turn <span class="pixeldiff-on">ON</span><span class="pixeldiff-off invisible">OFF</span> pixel diff</p>
+                <p>Click frame for <span class="night-mode">night mode</span><span class="day-mode invisible">light mode</span></p>
+                <p>T-shirts available at <a href="http://teespring.com/facetoaster" target="_blank">teespring.com</a></p>
+            </div>
+
+            <div class="info-bottom-right">
+                <h2 class="logo-name">Facetoaster</h2>
+                <p><a href="https://twitter.com/_lssr" target="_blank">Luis Santos</a> x <a href="https://twitter.com/GloveDotCom" target="_blank">Jaren Glover</a> x <a href="https://twitter.com/jhilmd" target="_blank">Jeff Hilnbrand</a> @ <a href="https://mhacks.org" target="_blank">MHacks 2014</a></p>
+            </div>
+
+        -->
+
+    <!-- SCRIPTS -->
+
+    <script>
+            if ("ontouchstart" in document.documentElement) { 
+                document.querySelector(".hint").innerHTML = "<p>Tap on the left or right to navigate</p>";
+            }
+
+    </script>
+
+    <script src="public/js/impress.js"></script>
+    <script>
+    </script>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    <script src="public/js/script.js"></script>
+    <script src="public/js/resemble.js"></script>
+    <script src="public/js/pixeldiff.js"></script>
+    <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-46817894-2', 'facetoaster.com');
+  ga('send', 'pageview');
+
+</script>
+
+</body>
+</html>
